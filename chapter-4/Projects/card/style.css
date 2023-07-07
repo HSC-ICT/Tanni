@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222f3e;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1, h{
+    text-align: center;
+    margin: 20px;
+    color: hotpink;
+}
+
+.container{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card{
+    height: 350px;
+    width: 300px;
+    background-color: #f5f6fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card .image img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.card .bio{
+    text-align: center;
+    padding: 10px;
+    color: #000;
+}
+
+.card .para{
+    text-align: center;
+    color: rgb(102, 7, 161);
+}
