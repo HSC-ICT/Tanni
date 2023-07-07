@@ -1,0 +1,25 @@
+1) even odd program
+2) prime number program
+3) factorial program
+4) find maximum between two numbers
+5) find minimum between two numbers
+6) find maximum between three numbers
+7) find minimum between three numbers
+
+// raff
+int calcFact(int n){
+	int fact;
+
+	return fact;
+}
+
+for
+|---------|
+|         |
+|  fact   |
+|         |
+|---------|
+rannagor
+return fact
+
+

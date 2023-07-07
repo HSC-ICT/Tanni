@@ -1,0 +1,6 @@
+1) prime number program
+2) find maximum between two numbers
+3) find minimum between two numbers
+4) find maximum between three numbers
+5) find minimum between three numbers
+

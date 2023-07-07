@@ -1,0 +1,64 @@
+a = 8
+b = 4
+
+
+i = 1
+i <= a = 1 <= 8 = True
+i <= b = 1 <= 4 = True
+True && True = True
+
+a % i == 0
+8 % 1 == 0 = True
+
+b % i == 0
+4 % 1 == 0 = True
+True && True = True
+
+lcm = (a * b) / i
+lcm = (8 * 4) / 1 = 32
+
+
+i = 2
+i <= a = 2 <= 8 = True
+i <= b = 2 <= 4 = True
+True && True = True
+
+a % i == 0
+8 % 2 == 0 = True
+
+b % i == 0
+4 % 2 == 0 = True
+True && True = True
+
+lcm = (a * b) / i
+lcm = (8 * 4) / 2 = 16
+
+
+i = 3
+i <= a = 3 <= 8 = True
+i <= b = 3 <= 4 = True
+True && True = True
+
+a % i == 0
+8 % 3 == 0 = False
+
+
+
+i = 4
+i <= a = 4 <= 8 = True
+i <= b = 4 <= 4 = True
+True && True = True
+
+a % i == 0
+8 % 4 == 0 = True
+b % i == 0
+4 % 4 == 0 = True
+True && True = True
+
+lcm = (a * b) / i
+lcm = (8 * 4) / 4 = 8
+
+
+i = 5
+i <= a = 5 <= 8 = True
+i <= b = 5 <= 4 = False

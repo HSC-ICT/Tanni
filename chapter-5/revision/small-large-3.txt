@@ -1,0 +1,18 @@
+Algorithm --> Large Number between three number
+-----------
+Step-1: Start
+Step-2: Input A, B, C
+Step-3: If A > B and A > C then print A
+Step-4: Else if B > A and B > C then print B
+Step-5: Else print C
+Step-6: Stop
+
+
+Algorithm --> Find the smallest number between three number
+-----------
+Step-1: Start
+Step-2: Input A, B, C
+Step-3: If A < B and A < C then print A
+Step-4: Else if B < A and B < C then print B
+Step-5: Else print C
+Step-6: Stop
